@@ -25,11 +25,33 @@
 
 ## Docker Image vs Container
 1. Images are blueprint and container their instance.
-2. To create image, we need to write instruction in ```Dockerfile``` and to create the container run the image.
+3. To create image, we need to write instruction in ```Dockerfile``` and to create the container run the image.
 
 ## Docker Compose vs Dockerfile
 1. Dockerfile describes how to build the image, ```docker-compose``` is used to run containers from ```docker-compose.yaml```.
 2. ```docker-compose.yaml``` can have reference to Dockerfile but not the other way around.
+3. Sample ```Dockerfile```
+   ```
+   FROM alpine:3.4
+
+   RUN apk update && \
+       apk add curl && \
+       apk add git && \
+       apk add vim
+   ```
+   
+   Sample ```docker-compose.yaml```
+   ```
+   version: "3.9"
+   services:
+     web:
+       build: .
+       ports:
+         - "8000:5000"
+     redis:
+       image: "redis:alpine"
+
+   ```
 
 ## Beginner Project Ideas Using Docker
 1. [Learn common commands for docker](https://docs.docker.com/engine/reference/commandline/docker/).
