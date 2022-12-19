@@ -28,3 +28,13 @@
 2. To create image, we need to write instruction in ```Dockerfile``` and to create the container run the image.
 
 ## Docker Compose vs Dockerfile
+1. Dockerfile describes how to build the image, ```docker-compose``` is used to run containers from ```docker-compose.yaml```.
+2. ```docker-compose.yaml``` can have reference to Dockerfile but not the other way around.
+
+## Beginner Project Ideas Using Docker
+1. [Learn common commands for docker](https://docs.docker.com/engine/reference/commandline/docker/).
+2. [Learn common docker-compose commands](https://docs.docker.com/engine/reference/commandline/compose/).
+3. [Create account in Docker and playaround](https://hub.docker.com/)
+4. [Create RestAPIs and host them in Heroku using Docker](https://devcenter.heroku.com/categories/deploying-with-docker)
+5. [Work with common tools like Airflow where multiple containers interact](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+6. Build your microservices with Docker.
