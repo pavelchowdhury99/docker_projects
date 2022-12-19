@@ -32,7 +32,7 @@
 2. ```docker-compose.yaml``` can have reference to Dockerfile but not the other way around.
 3. Sample ```Dockerfile```
    ```
-   FROM alpine:3.4
+   FROM alpine:latest
 
    RUN apk update && \
        apk add curl && \
