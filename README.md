@@ -1,4 +1,4 @@
-# Docker Fundamentals Beginners and Project Ideas
+# Docker Fundamentals For Beginners and Project Ideas
 
 ## Need for Docker
 1. Problem of environment separation for applications.
