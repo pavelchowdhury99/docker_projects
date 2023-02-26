@@ -60,3 +60,6 @@
 4. [Create RestAPIs and host them in Heroku using Docker](https://devcenter.heroku.com/categories/deploying-with-docker).
 5. [Work with common tools like Airflow where multiple containers interact](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html).
 6. Build your microservices with Docker.
+
+## Walkthrough
+[![Top Docker project ideas for beginners | Installing Docker | Docker tutorial | Naukri Learning](https://yt-embed.herokuapp.com/embed?v=-Hnpt0QyejU)](https://youtu.be/-Hnpt0QyejU "Top Docker project ideas for beginners | Installing Docker | Docker tutorial | Naukri Learning ")
